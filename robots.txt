@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://hostsrating.uk.nf/sitemap.xml
+Disallow: /redirect/
