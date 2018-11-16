@@ -1,0 +1,83 @@
+img{
+	max-width: 100%;
+}
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none !important;
+}
+.bg-img{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	z-index: -1;
+}
+.logos{
+	text-align: center;
+}
+.logos a{
+	display: inline-block;
+	width: 8%;
+	margin-right: 20px;
+}
+.fb-btn{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	font-size: 26px;
+	color: #0056b3;
+}
+.fb-btn:hover{
+	color: #246ab5;
+}
+.navbar{
+	background: #2698bd;
+	padding-top: 0;
+	padding-bottom: 0;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid #28a5ce;
+}
+.navbar li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+.navbar a{
+    font-size: 20px;
+    font-family: Lobster;
+}
+.navbar li:hover,
+.navbar li.active{
+	background: #28a5ce;
+}
+.opacity-block{
+	background: rgba(0, 0, 0, .6);
+}
+.header-text{
+	padding-top: 10vh;
+	background: rgba(255, 255, 255, 0.5);
+	padding-bottom: 12vh;
+	color: #fff;
+}
+.header-text h1{
+	font-size: 70px;
+	font-family: Lobster;
+}
+.hosting{
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	border: 3px solid lightblue;
+}
+.hosting:hover{
+	border-color: #6bcdea;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(107,205,234,1);
+	-moz-box-shadow: 0px 0px 15px 1px rgba(107,205,234,1);
+	box-shadow: 0px 0px 15px 1px rgba(107,205,234,1);
+}
